@@ -18,7 +18,7 @@ xx (socket)sample:查询对应技术(socket)的代码样本<br>
 3. Branch 分支:
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为master/main<br>
 不仅可以管理代码存储，便于多人协作开发
-
+[工作过程图](https://picture.gptkong.com/20240610/20517f3cdb48d2400087d3b0f3fd5eaf1e.png)
 
 
 # 仓库内容
@@ -69,7 +69,7 @@ rsa.pub 复制密文，粘贴到settings \-\>SSH key and GPG \-\> new ssh key \-
 ```
 
 # 本地设备与云端仓库交互逻辑
-
+[上传云端仓库过程图](https://picture.gptkong.com/20240610/20558fb85084b04c409a1e203ebad70565.png)
 
 ```bash
 	git add code.c	#添加内容
@@ -119,7 +119,7 @@ rsa.pub 复制密文，粘贴到settings \-\>SSH key and GPG \-\> new ssh key \-
 支等等
 
 
-#Markdown
+# Markdown
 **文本修饰语言 ， 用特殊符号修饰正文效果<br>**
 
 ## 标题修饰符\#
@@ -148,7 +148,7 @@ rsa.pub 复制密文，粘贴到settings \-\>SSH key and GPG \-\> new ssh key \-
 
 ---
 
-##引用效用\>表示
+## 引用效用\>表示
 > 一级引用
 >> 二级引用
 >>> 三级引用
@@ -206,5 +206,5 @@ rsa.pub 复制密文，粘贴到settings \-\>SSH key and GPG \-\> new ssh key \-
 	ld -l
 ```
 
-##超链接技术
+## 超链接技术
 [Github](https://github.com "点击访问")
